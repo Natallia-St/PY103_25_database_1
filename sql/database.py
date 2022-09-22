@@ -215,7 +215,7 @@ import random
 # file_data.close()
 #
 
-# #TASK6################################################
+# #TASK6###############################################
 conn_1 = sqlite3.connect("my_base_1") # Создание БД
 cursor_1 = conn_1.cursor() # Создаем объект курсор для работы с БД
 cursor_1.execute("""CREATE TABLE IF NOT EXISTS tab_1(id INTEGER PRIMARY KEY AUTOINCREMENT, text_1 TEXT)""") # Заполняем БД
